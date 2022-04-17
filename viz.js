@@ -110,6 +110,7 @@ function yearBarChart(yr) {
   push();
   rotate(3*PI/2);
   textSize(15);
+  noStroke();
   text("# of species observed", spaceBetween, -10);
   textAlign(RIGHT);
   text("# of checklists submitted", -spaceBetween, -10);
