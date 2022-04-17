@@ -80,6 +80,7 @@ function totalBarChart() {
 }
 
 function yearBarChart(yr) {
+  push();
   translate(width/3,height/2);
 
   let aggs = aggregatesDict[yr];
@@ -174,5 +175,7 @@ function yearBarChart(yr) {
   noStroke();
   textSize(15);
   text("Average", lastX + 10, lastY);
+  pop();
+
   pop();
 }

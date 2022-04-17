@@ -50,5 +50,10 @@ function draw() {
   background(250, 100);
   totalBarChart();
   yearBarChart(currentYear);
+
+  textSize(40*(windowWidth/2560));
+  textAlign(RIGHT,CENTER);
+  fill(30);
+  text("eBird species data from New York City, 2006-2021", windowWidth*0.99, windowHeight*0.05);
 }
 
